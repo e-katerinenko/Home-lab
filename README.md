@@ -2,7 +2,7 @@
 Inspired by <a href='https://blog.davidvarghese.net/categories/home-lab/'>David Varghese</a>
 <img width="1700" height="1320" alt="Netwrok_GitHub" src="https://github.com/user-attachments/assets/68ca2992-0e25-4e44-92c9-55a1fb4bd1eb" />
 
-<h1>🧪 Cybersecurity Homelab – Purple Team &amp; DFIR Lab</h1>
+<h1>🧪 Cybersecurity Homelab – Detection and Response</h1>
 
 <h2>🎯 Objective</h2>
 <p>
@@ -36,7 +36,7 @@ Provides administrative access to the pfSense web interface and serves as the pr
 platform for penetration testing, network enumeration, and Active Directory attack simulations.
 </p>
 
-<h3>🔹 LAN1 – Vulnerable (Cyber Range)</h3>
+<h3>🔹 LAN1 – Vulnerable</h3>
 <p><strong>Purpose:</strong> Exploitation and post-exploitation practice<br>
 <strong>VMs:</strong></p>
 <ul>
@@ -61,7 +61,7 @@ Simulates a corporate Active Directory environment for practicing authentication
 Kerberos abuse, credential attacks, lateral movement, and detection of suspicious domain activity.
 </p>
 
-<h3>🔹 LAN3 – Malware Analysis (Isolated)</h3>
+<h3>🔹 LAN3 – Malware Analysis</h3>
 <p><strong>Purpose:</strong> Safe malware analysis and reverse engineering<br>
 <strong>VMs:</strong></p>
 <ul>
@@ -75,7 +75,7 @@ File transfer is performed securely via <strong>SSH from the Tsurugi DFIR VM</st
 to ensure containment and prevent accidental malware propagation.
 </p>
 
-<h3>🔹 LAN4 – Security (SOC / DFIR)</h3>
+<h3>🔹 LAN4 – Security</h3>
 <p><strong>Purpose:</strong> Detection, investigation, and response<br>
 <strong>VMs:</strong></p>
 <ul>
@@ -85,14 +85,14 @@ to ensure containment and prevent accidental malware propagation.
 <p>
 Acts as the Security Operations Center (SOC) and Incident Response environment.
 Centralized log analysis is performed using <strong>Splunk</strong>,
-with a <strong>Splunk Forwarder configured on the Domain Controller</strong>.
+with a Splunk Forwarder configured on the Domain Controller.
 Tsurugi is used for log analysis, network traffic inspection, timeline creation,
 and forensic investigations.
 </p>
 
 <hr>
 
-<h2>🔐 Key Capabilities</h2>
+<h2>🔐 Skills</h2>
 <ul>
   <li>Network segmentation and firewall rule enforcement using <strong>pfSense</strong></li>
   <li>Controlled attack simulation and lateral movement testing</li>
@@ -107,7 +107,7 @@ and forensic investigations.
 
 <h2>🚀 Future Enhancements (Planned)</h2>
 <ul>
-  <li>Integration of IDS/IPS (Suricata) on pfSense</li>
+  <li>Integration of IDS/IPS (Snort/Suricata) on pfSense</li>
   <li>Expanded detection engineering and custom alerting</li>
   <li>Additional attack scenarios and incident response playbooks</li>
   <li>Network traffic analysis and PCAP-based investigations</li>
